@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+}
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.navbar .logo {
+    color: blue;
+    font-weight: 500px;
+    font-size: 2.1rem;
+}
+.navbar span {
+    color: white;
+}
+.navbar .menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navbar a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+}
+.navbar a:hover {
+    color: white;
+}
+.section {
+    height: 100vh;
+    background-color: rgb(10, 10, 71);
+    display: flex;
+    align-items: center;
+    padding: 0px 20px; 
+}
+.section .content h2 {
+    max-width: 400px;
+    font-size: 2.2rem;
+    line-height: 65px;
+    color: white;
+}
+.section .content h2 span {
+    color: blue;
+}
+.section .content h3 {
+    color: blue;
+}
+.section .content p {
+    font-weight: 300px;
+    max-width: 500px;
+    font-size: 1.5rem;
+    margin-top: 20px; 
+    color: white;
+}
+.section .content .grup-tombol {
+    background-color: blue;
+    padding: 12px 30px;
+    border-radius: 20px;
+    /* color: white; */
+    margin-top: 38px;
+    padding-right: 250px;
+}
+.section .content .grup-tombol:hover {
+    background-color: white;
+}
+.section .content .grup-tombol a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.section .content .grup-tombol a:hover {
+    color: black;
+}
+.sosmed {
+    position: absolute;
+    bottom: 50px;
+}
+.sosmed a {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    outline: 2px solid aqua;
+    margin-right: 36px;
+    font-size: 37px;
+    border-radius: 28%;
+}
